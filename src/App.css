@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+#root {
+  width: 100%;
+  margin: 0 0;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  color: #000;
+  background-color: #f8ebeb;
+}
+.margin-auto {
+  margin: 0 auto !important;
+}
